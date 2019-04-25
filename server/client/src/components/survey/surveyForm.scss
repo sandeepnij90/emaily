@@ -1,0 +1,14 @@
+.survey-form {
+    display:grid;
+    max-width:500px;
+    width:100%;
+    margin-top:40px;
+    padding:10px;
+    .buttons {
+        display:grid;
+        grid: 1fr / 1fr 1fr;
+        div:last-child {
+            justify-self: end;
+        }
+    }
+}
